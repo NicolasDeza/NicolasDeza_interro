@@ -1,0 +1,158 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  overflow-x: hidden;
+}
+div#wrapper {
+  padding: 1em;
+}
+header {
+  width: 100%;
+  background-image: url(../start-portfolio/images/header.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 300px;
+  position: relative;
+}
+
+header nav#menu {
+  height: 70px;
+  background-color: rgba(114, 114, 114, 0.7);
+  position: fixed;
+  top: 0;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+header nav#menu ul {
+  display: flex;
+}
+
+header nav#menu ul li {
+  list-style: none;
+  padding-right: 2em;
+}
+
+header nav#menu ul li a {
+  font-size: 1.8em;
+  color: #fff;
+  text-decoration: none;
+}
+header nav#menu ul li a:hover,
+header nav#menu ul li a:hover {
+  font-weight: bold;
+}
+
+header h1 {
+  color: #fff;
+  font-weight: bold;
+  font-size: 3.2em;
+  position: relative;
+  top: 4.2em;
+  left: 1.2em;
+}
+
+/* CONTENU */
+
+main h2 {
+  font-size: 2.5em;
+  margin-top: 2em;
+}
+p.intro {
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+
+/*! SECTION GALERIE */
+
+section#galerie {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+section#galerie figure {
+  width: 22%;
+  margin-bottom: 10px;
+}
+section#galerie figure img {
+  width: 100%;
+}
+
+h2#titre-logo {
+  font-size: 2.5em;
+  margin-top: 3em;
+}
+
+/*! SECTION LOGOS */
+
+section#logos {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+section#logos figure {
+  width: 22%;
+  margin-bottom: 10px;
+}
+section#logos figure img {
+  width: 100%;
+}
+
+/*! ARTICLE */
+
+h2#nos-services {
+  font-size: 2.5em;
+}
+
+main article {
+  display: flex;
+  text-align: left;
+  text-align: left;
+}
+main article p {
+  width: 60%;
+  margin: 10px;
+}
+
+/*! FOOTER */
+
+footer {
+  background-color: black;
+  margin-top: 3em;
+  width: 100%;
+  height: 300px;
+  display: flex;
+  flex-direction: column; /* Permet d'empiler les éléments verticalement */
+  justify-content: center;
+  align-items: center;
+}
+
+footer h3 {
+  margin-top: 0;
+  color: #fff;
+  font-size: 1.3em;
+}
+footer figure img#fleche {
+  position: fixed;
+  right: 40px;
+  bottom: 50px;
+}
+
+footer div#reseaux {
+  display: flex;
+  align-items: center;
+  margin-top: 40px;
+}
+
+footer div#reseaux figure {
+  margin-right: 2em;
+}
+
+i {
+  color: #fff;
+  font-size: 3em;
+}
