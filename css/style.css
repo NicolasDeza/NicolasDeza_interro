@@ -105,6 +105,8 @@ section#logos figure img {
 /*! ARTICLE */
 
 h2#nos-services {
+  border-top: 1px solid black;
+  padding-top: 1.2em;
   font-size: 2.5em;
 }
 
